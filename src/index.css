@@ -2,3 +2,62 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    /* Deep space background */
+    @apply font-comic bg-gray-950 text-gray-100;
+    background-image:
+      radial-gradient(circle at 15% 50%, rgba(255, 165, 0, 0.15) 0%, transparent 50%),
+      radial-gradient(circle at 85% 30%, rgba(0, 255, 255, 0.1) 0%, transparent 50%),
+      radial-gradient(white 1px, transparent 1px),
+      radial-gradient(white 1px, transparent 1px);
+    background-size: 100% 100%, 100% 100%, 50px 50px, 100px 100px;
+    background-position: 0 0, 0 0, 0 0, 25px 25px;
+    background-attachment: fixed;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    /* Astronaut/Sci-Fi font (still using Bangers but restyled) */
+    @apply font-bangers tracking-wider;
+  }
+}
+
+@layer utilities {
+  .sci-fi-border {
+    /* Glowing solar flare panel */
+    background: rgba(17, 24, 39, 0.85);
+    /* Deep gray, slightly transparent */
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 165, 0, 0.5);
+    /* Solar orange border */
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 69, 0, 0.4), inset 0 0 20px rgba(255, 69, 0, 0.1);
+  }
+
+  .hud-panel {
+    /* Astronaut Heads-Up Display text panel */
+    position: relative;
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(0, 255, 255, 0.4);
+    /* Neon cyan border */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+  }
+
+  .hud-panel::after {
+    /* Futuristic accent line */
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    right: 10px;
+    width: 30px;
+    height: 3px;
+    background: rgba(0, 255, 255, 0.8);
+    box-shadow: 0 0 5px rgba(0, 255, 255, 0.8);
+  }
+}
