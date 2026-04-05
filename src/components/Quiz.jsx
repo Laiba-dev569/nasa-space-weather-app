@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 export default function Quiz({ quiz }) {
   const [current, setCurrent] = useState(0);
@@ -66,3 +66,4 @@ export default function Quiz({ quiz }) {
     </div>
   );
 }
+
