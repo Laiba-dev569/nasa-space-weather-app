@@ -1,16 +1,38 @@
-# React + Vite
+🚀 NASA Storytelling Hackathon
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+🌌 About the Project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+An interactive storytelling quiz game inspired by NASA that explores solar flares and auroras through engaging narratives, characters, and science-based learning with immersive visuals and physics-based interactions.
+
+🎮 Features
+🎭 Interactive storytelling with multiple characters
+🌞 Learn about solar flares & auroras in a fun and engaging way
+🌍 Supports 11+ languages for global accessibility
+🧠 Gamified quiz-based learning system
+🪐 3D space visuals using Three.js
+⚙️ Physics-based interactions using Matter.js
+📊 Data visualization and graphs using Graph.js
+🎯 Purpose
+
+To make space science more interactive, visual, and engaging by combining storytelling, quizzes, physics simulations, and 3D environments into one educational experience.
+
+🛠️ Tech Stack
+Python / JavaScript (based on your project)
+Tkinter / Web Technologies
+Three.js – 3D space visualization
+Matter.js – Physics simulation
+Graph.js – Data visualization
+JSON / APIs (if used)
+🚀 Future Improvements
+More space missions & topics 🌠
+Advanced animations and UI improvements 🎨
+Score tracking & leaderboard 🏆
+Voice narration for storytelling 🎤
+💫 Inspiration
+
+Inspired by real solar phenomena studied by NASA and the goal of making science learning immersive, visual, and interactive.
