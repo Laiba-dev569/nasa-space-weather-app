@@ -3,8 +3,8 @@
 # ☀️ NASA Space Weather Exploration Hub Hackathon 
 ### *An Interactive, Multilingual Heliospheric Odyssey*
 
-[![CI - Build & Test](https://github.com/Laiba-dev569/nasa-space-weather-app/actions/workflows/ci.yml/badge.svg)](https://github.com/Laiba-dev569/nasa-space-weather-app/actions/workflows/ci.yml)
-[![Deploy to GitHub Pages](https://github.com/Laiba-dev569/nasa-space-weather-app/actions/workflows/deploy.yml/badge.svg)](https://github.com/Laiba-dev569/nasa-space-weather-app/actions/workflows/deploy.yml)
+[![CI - Build & Test](https://github.com/binarylaiba/-NASA-Space-Weather-Exploration-Hub-Hackathon/actions/workflows/ci.yml/badge.svg)](https://github.com/binarylaiba/-NASA-Space-Weather-Exploration-Hub-Hackathon/actions/workflows/ci.yml)
+[![Deploy to GitHub Pages](https://github.com/binarylaiba/-NASA-Space-Weather-Exploration-Hub-Hackathon/actions/workflows/deploy.yml/badge.svg)](https://github.com/binarylaiba/-NASA-Space-Weather-Exploration-Hub-Hackathon/actions/workflows/deploy.yml)
 [![React](https://img.shields.io/badge/React-19.2-61DAFB?logo=react&logoColor=black&style=flat-square)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-7.1-646CFF?logo=vite&logoColor=white&style=flat-square)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?logo=tailwind-css&logoColor=white&style=flat-square)](https://tailwindcss.com/)
@@ -216,7 +216,7 @@ nasa-space-weather-app/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Laiba-dev569/nasa-space-weather-app.git
+   git clone https://github.com/binarylaiba/-NASA-Space-Weather-Exploration-Hub-Hackathon.git
    cd nasa-space-weather-app
    ```
 

@@ -3,8 +3,8 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  // Required for GitHub Pages: assets are served from /nasa-space-weather-app/
-  base: '/nasa-space-weather-app/',
+  // Required for GitHub Pages: must match the exact GitHub repository name
+  base: '/-NASA-Space-Weather-Exploration-Hub-Hackathon/',
   plugins: [react()],
   build: {
     rollupOptions: {
