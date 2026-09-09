@@ -1,6 +1,6 @@
 <div align="center">
 
-# ☀️ NASA Space Weather Exploration Hub
+# ☀️ NASA Space Weather Exploration Hub Hackathon 
 ### *An Interactive, Multilingual Heliospheric Odyssey*
 
 [![CI - Build & Test](https://github.com/Laiba-dev569/nasa-space-weather-app/actions/workflows/ci.yml/badge.svg)](https://github.com/Laiba-dev569/nasa-space-weather-app/actions/workflows/ci.yml)
