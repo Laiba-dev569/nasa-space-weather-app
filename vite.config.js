@@ -1,5 +1,11 @@
 /// vite.config.js
-export default {
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+export default defineConfig({
+  // Required for GitHub Pages: assets are served from /nasa-space-weather-app/
+  base: '/nasa-space-weather-app/',
+  plugins: [react()],
   build: {
     rollupOptions: {
       output: {
@@ -11,4 +17,5 @@ export default {
       }
     }
   }
-}
+})
+
